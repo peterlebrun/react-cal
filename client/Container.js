@@ -1,8 +1,5 @@
 import React from 'react';
-import { Header } from './Header';
-import { Nav } from './Nav';
-import { Body } from './Body';
-import { Footer } from './Footer';
+import { Week } from './Week';
 import styles from './style.css';
 
 export default class Container extends React.Component {
@@ -15,10 +12,7 @@ export default class Container extends React.Component {
   render() {
     return (
         <div className={styles.container}>
-          <Header/>
-          <Nav/>
-          <Body/>
-          <Footer/>
+          <Week />
         </div>
     );
   }

@@ -6,41 +6,34 @@
 
 .container {
     text-align: center;
-    max-width: 300px;
 }
 
-.header {
-    width: 100%;
-    height: 50px;
-    border: 2px solid red;
-    margin: 1px;
-}
-
-.nav {
-    width: 100%;
-    height: 20px;
-    border: 2px solid red;
-    margin: 1px;
-}
-
-.bodyContainer {
+.week {
     display: flex;
-    flex-direction: row-reverse;
-    width: 100%;
-    border: 2px solid red;
-    margin: 1px;
-    height: 200px;
+    flex-direction: row;
+    justify-content: left;
 }
 
-.body {
-    width: 75%;
-    border: 2px solid red;
-    margin: 1px;
+.weekHeader {
+    display: flex;
+    flex-direction: column;
+    width: 40px;
 }
 
-.footer {
-    width: 100%;
-    border: 2px solid red;
-    margin: 1px;
-    height: 50px;
+.day {
+    display: flex;
+    flex-direction: column;
+    width: 125px;
+}
+
+.title {
+    height: 20px;
+    border: 1px solid red;
+    margin: 1px 1px 0 0;
+}
+
+.hour {
+    height: 20px;
+    border: 1px solid red;
+    margin: 1px 1px 0 0;
 }
